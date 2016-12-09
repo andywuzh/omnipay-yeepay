@@ -1,0 +1,37 @@
+{
+  "name": "cola1129/omnipay-yeepay",
+  "description": "Yeepay gateway for Omnipay payment processing library",
+  "type": "library",
+  "keywords": [
+    "yeepay",
+    "gateway",
+    "omnipay",
+    "payment",
+    "purchase",
+    "merchant"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cola1129/omnipay-yeepay",
+  "authors": [
+    {
+      "name": "cola1129",
+      "email": "cola1129@gmail.com"
+    }
+  ],
+  "require": {
+    "omnipay/common": "~2.0"
+  },
+  "require-dev": {
+    "omnipay/tests": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Yeepay\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Omnipay\\Yeepay\\Tests\\": "tests/"
+    }
+  }
+}
